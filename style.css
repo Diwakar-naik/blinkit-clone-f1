@@ -1,0 +1,149 @@
+.location{
+
+}
+.location>h5{
+    color: rgb(0,0,0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+.location>p{
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.vertical-line{
+    height: 55px;
+    border-left:2px solid #f2f2f2 ;
+}
+.search-div{
+    padding: 0px 12 px;
+    border: 1px solid rgb(232,232,232);
+    border-radius: 12px;
+    background-color: rgb(248,248,248);
+    color: rgb(130,130,130);
+}
+.search-div>input{
+    border: none;
+    background-color: transparent;
+    width: 40vw;
+    height: 45px;
+}
+::placeholder{
+    font-size: 14px;
+    color: rgb(153,153,153);
+}
+.my-cart{
+    background-color: #0d831e !important;
+    font-size: 14px !important;
+}
+.hero-section{
+    
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+.my-categories{
+    width: 100%;
+}
+.my-list{
+    white-space: nowrap;
+}
+.my-container{
+    margin: auto;
+    width:100%;
+    overflow-x: auto;
+}
+.my-list>img{
+    padding-inline: 10px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.my-card{
+    width: 179px;
+    margin-inline:10px ;
+}
+.my-card-time{
+    width:fit-content;
+    border-radius: 4px;
+    background-color: rgb(248,248,248);
+    padding:0px 4px;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54,54,54);
+}
+
+.my-card-title{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+    width: fit-content;
+}
+
+.my-card-weight{
+    color: #666666;
+    font-size: 13px;
+}
+
+.card-price{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 11px;
+}
+
+.offer{
+    align-items: center;
+    display: flex;
+    left: 10%;
+    top: 0px;
+    position: absolute;
+    z-index: 10;
+}
+
+.offer-percentage{
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 9px;
+    text-align: center;
+    z-index: 20;
+    position: absolute;
+    margin-left: 5px;
+}
+
+.mrp{
+    color: #666666;
+    font-size: 12px;
+}
+.fa-heart{
+    color: red;
+}
+.my-footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    top: 85px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.fa-indian-rupee-sign{
+    font-size: smaller;
+}
+
+.mrp{
+    color: #666666;
+    font-size: 12px;
+}
+.category-section{
+    margin: auto;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.category-section-row{
+    width: 100%;
+    overflow-x: auto;
+    padding: 10px;
+}
